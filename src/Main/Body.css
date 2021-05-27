@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    
+  }
+  .body{
+      background-color: #fefdfd;
+      margin-left: 15%;
+      margin-right: 15%;color: #232323;
+  }
+  .Body_head{
+    
+    text-align: center;
+  }
+  .Body_head_p{
+    color: #232323;
+    text-align: center;
+    font-size: large;
+  }
+  .Body_head_icons{
+    color: #ff6624;
+    padding-top: 6%;
+  }
+  .Body_head_icon{
+      
+      padding-left:10%;
+     cursor: pointer;
+  }
+  .body_icon_name{
+      color: #232323;
+      cursor: pointer;
+      font-size: small;
+      font-weight: bold;
+  }
+.Body_head_icon_p{
+    margin-left: 9.5%;
+    color: #232323;
+}
+img{
+    float: right;
+}
+.BodyForm_boder{
+    border: 1px solid #c0c0c0;
+    background-color: #f7f6f6;
+    color: #232323; 
+    padding: 3%;
+}
+.ok_button{
+  float: right;
+  
+}
+
+.last_sumit{
+  margin-left: 20%;
+}
+
+.last_sumit_h3{
+  margin-left: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1173px) {
+    .Body_head_icon_p{
+        margin-left: 5.5%;
+        color: #232323;
+    }
+
+    .Body_head_icon{
+      
+        padding-left:5%;
+       cursor: pointer;
+    }
+
+  }
+  .Body_head_icons{
+    color: #ff6624;
+    padding-top: 3%;
+  }
+  @media only screen and (max-width: 1050px) {
+    .Body_head_icon_p{
+        margin-left: 1.5%;
+        color: #232323;
+    }
+
+    .Body_head_icon{
+      
+        padding-left:0.5%;
+       cursor: pointer;
+    }
+
+  }
+  .step-number-active{
+    background-color: #ff6624;
+    color: #232323;
+  }
